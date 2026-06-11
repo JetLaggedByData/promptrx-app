@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.env
+.env.*
+!.env.example
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Node
+node_modules/
+dist/
+.env.local
+
+# IDE
+.idea/
+.vscode/settings.json
+*.swp
+.DS_Store
+
+# Docker
+*.log
+
+# Claude Code local overrides
+CLAUDE.local.md
+.claude/settings.local.json
